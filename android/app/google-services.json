@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "189952730223",
+    "firebase_url": "https://gringo-37ff8.firebaseio.com",
+    "project_id": "gringo-37ff8",
+    "storage_bucket": "gringo-37ff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189952730223:android:eb4bf1cd763c8f08",
+        "android_client_info": {
+          "package_name": "com.buzz.gringo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189952730223-gdsrh7g4qpbjcvcj03vugjcjnd2rdaa4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buzz.gringo",
+            "certificate_hash": "7aa2e3c3e94117b409d9dba7dedfcc17e42d04cc"
+          }
+        },
+        {
+          "client_id": "189952730223-55cidpis3nhakfinlinbic2kqm9n1jp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buzz.gringo",
+            "certificate_hash": "9546f6c6ece107534b4387e10e8a2d750f4cf0aa"
+          }
+        },
+        {
+          "client_id": "189952730223-4e5naq0poa9fmracr7n64d3hjg68pl6m.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "189952730223-4e5naq0poa9fmracr7n64d3hjg68pl6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwj0VkVwn1KeRAqRUbRqEv-pxykAYfbus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189952730223-4e5naq0poa9fmracr7n64d3hjg68pl6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

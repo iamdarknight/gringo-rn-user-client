@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gringo</string>
+    <string name="default_notification_channel_id">GRINGO123</string>
+</resources>
