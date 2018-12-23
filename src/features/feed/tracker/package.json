@@ -1,0 +1,22 @@
+{
+  "name": "@gringo/tracker",
+  "version": "0.0.1",
+  "description": "A module part of the Gringo Platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezyyInc/gringo.git"
+  },
+  "keywords": [
+    "geolocation"
+  ],
+  "author": "darknight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezyyInc/gringo/issues"
+  },
+  "homepage": "https://github.com/ezyyInc/gringo#readme"
+}
