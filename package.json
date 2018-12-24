@@ -28,7 +28,7 @@
     "flow-bin": "^0.81.0",
     "immutability-helper": "^2.6.0",
     "isomorphic-fetch": "^2.2.1",
-    "lottie-react-native": "^2.5.10",
+    "lottie-react-native": "2.5.10",
     "moment": "^2.22.2",
     "native-base": "^2.8.1",
     "normalizr": "^3.3.0",
