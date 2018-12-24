@@ -58,12 +58,21 @@ class LoadingMap extends React.Component {
 
   explore = (location) => {
     // move map to current location
-    this.map.getNode().animateToRegion({
-      latitude: location.latitude,
-      longitude: location.longitude,
-      latitudeDelta: this.props.region.longitudeDelta,
-      longitudeDelta: this.props.region.longitudeDelta,
-    }, 3000);
+    this.map.getNode().animateCamera(
+      {
+        center: {
+          latitude: location.latitude,
+          longitude: location.longitude,
+        },
+        pitch: 4,
+        heading: 9,
+
+        // Only on iOS MapKit, in meters. The property is ignored by Google Maps.
+        altitude: 5000,
+
+        // Only when using Google Maps.
+        zoom: 12,
+      }, 3000);
   }
 
   render() {
@@ -352,8 +361,8 @@ class LoadingMap extends React.Component {
           // liteMode={this.props.liteMode}
           // key={`map_${i}`}
           onPress={this.props.onMapPress}
-          region={this.state.region}
-          // camera={this.props.camera}
+          // region={this.state.region}
+          camera={this.props.camera}
           onRegionChange={region => this.onRegionChange(region)}
           onRegionChangeComplete={(region) => {
             // Alert feed of new map position
